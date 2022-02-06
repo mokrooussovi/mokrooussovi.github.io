@@ -19,15 +19,37 @@ div.container {
    padding: 20px;
    opacity: 0.7;
    box-shadow: 0 4px 8px rgba(19, 18, 14, 0.945), 0 6px 20px 0 rgba(19, 18, 14, 0.19);
+   border: 1px;
+   border-style: dashed;
+   border-color: black;
 }
+
 #homepage {
    text-align: center;
 }
-.col {
+
+.col, .col-about {
    float:left;
    width: 50%;
-   padding: 2px;
+   padding: 5px;
    text-align: center;
+   
+}
+
+.col-about {
+   background-color: rgba(158, 132, 182, 0.425);
+   border: 1px;
+   border-style: dashed;
+   border-color: black;
+}
+
+.para-about {
+   align-content: center;
+   background-color: rgba(172, 177, 153, 0.301);
+   border: 1px;
+   border-style: groove;
+   border-color: rgb(30, 1, 58);
+   padding: 5%;
 }
 
 .photos::after {
@@ -36,19 +58,32 @@ div.container {
    display: table;
 }
 
+
+
 img {
    max-height: 100%;
    max-width: 100%;
+   border: 1px;
+   border-style: ridge;
+   border-color:rgb(30, 1, 58);
+   box-shadow: 0 4px 8px rgba(19, 18, 14, 0.945), 0 6px 20px 0 rgba(19, 18, 14, 0.19);
+}
+
+#site-img {
+   max-width: 60%;
+   max-height: 50%;
 }
 
 #will_portrait {
    max-width: 200px;
    max-height: 300px;
+   margin: 20px;
 }
 
 #ivan_portrait {
    max-width: 200px;
    max-height: 300px;
+   margin: 20px;
 }
 
 h1 {
@@ -59,6 +94,23 @@ h1 {
 h3 {
    text-align: left;
 }
+
+a {
+   text-decoration: none;
+}
+
+a:link {
+   color: rgb(67, 46, 255);
+}
+
+a:visited {
+   color:rgb(80, 24, 94);
+}
+
+a:hover {
+   color: yellow;
+}
+
 
 
 
