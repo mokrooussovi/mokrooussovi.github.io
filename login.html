@@ -1,16 +1,10 @@
-<!--
-  Title: resources.html
-  Authors: Ivan Mokrooussov and Will Estanislao
-  Date: 29/01/22
-  Description: resources.html is that deals with human resources.
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Human Resources</title>
+    <title>Login</title>
     <!-- CSS Section -->
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
@@ -20,7 +14,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="index.html"><i class="fas fa-bug"></i> Group3 Lab1</a>
+              <a class="navbar-brand" href="index.html"><i class="fas fa-spider"></i> WEBD6201</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -39,9 +33,6 @@
                     <a class="nav-link" href="about.html"><i class="fas fa-info"></i> About Us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="resources.html"><i class="far fa-id-card"></i> Human Resorces</a>
-                  </li>
-                  <li class="nav-item">
                     <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a>
                   </li>
                 </ul>
@@ -50,20 +41,55 @@
           </nav>
     </header>
 
-    <main class="MainContainer">
-      <div class="container"></div>
+    <!-- Main Content -->
+    <main class="container" id="mainContent">
+        <div class="row">
+            <div class="offset-md-3 col-md-6 col-sm-12">
+                  <div class="login" id="contentArea">
+                      <h1 class="display-4">Login</h1>
+                      <form id="loginForm" novalidate>
+                        
+                        <div class="form-group">
+                          <div class="input-group">
+                            <span class="input-group-addon">
+                              <i class="fa fa-user">
+                              </i>
+                            </span>
+                            <input type="text" class="form-control" id="contactName" name="userName"  required
+                            value="" placeholder="Enter your username">
+                          </div>
+                         
+                        </div>
+  
+                        <div class="form-group">
+                          <div class="input-group">
+                            <span class="input-group-addon">
+                              <i class="fa fa-lock">
+                              </i>
+                            </span>
+                            <input type="password" class="form-control" id="password" name="password"  required
+                            value="" placeholder="Enter your password">
+                          </div>
+                         
+                        </div>                                        
+                        <div class="text-right">
+                          <button id="submitButton" type="submit" class="btn btn-primary btn-lg">Login</button>
+                        </div>
+                      </form>
+                     
+                  </div>
+                  <p class="text-center text-muted small">
+                    Don't have an account? 
+                    <a href="register.html">Register Here!</a>
+                  </p>
+            </div>
+        </div>
     </main>
-    
-
-    <nav class="navbar fixed-bottom navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"> &copy CopyRight 2022</a>
-      </div>
-    </nav>
     
     <!-- Scripting Section -->
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
     <script src="./Scripts/app.js"></script>
 </body>
 </html>

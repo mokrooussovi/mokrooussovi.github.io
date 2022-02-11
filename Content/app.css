@@ -1,116 +1,52 @@
 /* custom CSS goes here */
-
-body {
-   background-color: rgba(177, 171, 202, 0.836);
+.input-group-addon:first-child
+{
+    border-right: 0;
 }
 
-p {
-   text-align: left;
+.input-group-addon
+{
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    border: 1px solid darkgrey;
+    border-radius: 4xpx; 
 }
 
-main {
-   width: 100%;
+.input-group-addon .fa
+{
+    font-size: 18px;
 }
 
-div.container {
-   width: 100%;
-   background-color: aliceblue;
-   border:5%;
-   padding: 20px;
-   opacity: 0.7;
-   box-shadow: 0 4px 8px rgba(19, 18, 14, 0.945), 0 6px 20px 0 rgba(19, 18, 14, 0.19);
-   border: 1px;
-   border-style: dashed;
-   border-color: black;
+.input-group .form-control
+{
+    position:relative;
+    z-index: 2;
+    float:left;
+    width: 100%;
+    margin-bottom: 0;
 }
 
-#homepage {
-   text-align: center;
+.input-group .form-control:last-child
+{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
-.col, .col-about {
-   float:left;
-   width: 50%;
-   padding: 5px;
-   text-align: center;
-   
+.login
+{
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: lightgrey;
+    border-radius: .3rem;
 }
 
-.col-about {
-   background-color: rgba(158, 132, 182, 0.425);
-   border: 1px;
-   border-style: dashed;
-   border-color: black;
+.login input
+{
+    background-color: white;
+    border-color: darkgrey;
+    border-radius: .4em;
+    width: 100%;
 }
-
-.para-about {
-   align-content: center;
-   background-color: rgba(172, 177, 153, 0.301);
-   border: 1px;
-   border-style: groove;
-   border-color: rgb(30, 1, 58);
-   padding: 5%;
-}
-
-.photos::after {
-   content: "";
-   clear: both;
-   display: table;
-}
-
-
-
-img {
-   max-height: 100%;
-   max-width: 100%;
-   border: 1px;
-   border-style: ridge;
-   border-color:rgb(30, 1, 58);
-   box-shadow: 0 4px 8px rgba(19, 18, 14, 0.945), 0 6px 20px 0 rgba(19, 18, 14, 0.19);
-}
-
-#site-img {
-   max-width: 60%;
-   max-height: 50%;
-}
-
-#will_portrait {
-   max-width: 200px;
-   max-height: 300px;
-   margin: 20px;
-}
-
-#ivan_portrait {
-   max-width: 200px;
-   max-height: 300px;
-   margin: 20px;
-}
-
-h1 {
-   margin: 15px;
-   text-align: center;
-}
-
-h3 {
-   text-align: left;
-}
-
-a {
-   text-decoration: none;
-}
-
-a:link {
-   color: rgb(67, 46, 255);
-}
-
-a:visited {
-   color:rgb(80, 24, 94);
-}
-
-a:hover {
-   color: yellow;
-}
-
-
-
-

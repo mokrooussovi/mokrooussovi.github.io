@@ -1,3 +1,4 @@
+(function (core) {
 class Contact
 {
     // public properties (getters and setters)
@@ -67,3 +68,6 @@ class Contact
         return `Full Name     : ${this.FullName}\nContact Number: ${this.ContactNumber}\nEmail Address : ${this.EmailAddress}`;
     }
 }
+
+    core.Contact = Contact;
+})(core || (core = {}));
