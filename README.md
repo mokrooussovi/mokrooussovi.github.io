@@ -1,3 +1,3 @@
 
-ICE6 WEBD6201 
-Intro to AJAX
+ICE7 WEBD6201 
+Intro to Single-Page Application - SPAs
