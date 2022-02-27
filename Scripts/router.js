@@ -111,16 +111,16 @@
 let router = new core.Router();
 
 router.AddTable([
-    "/", // default route
-    "/#home",
-    "/#about",
-    "/#services",
-    "/#contact",
-    "/#contact-list",
-    "/#products",
-    "/#register",
-    "/#login",
-    "/#edit"
+    "/#", // default route
+    "/home",
+    "/about",
+    "/services",
+    "/contact",
+    "/contact-list",
+    "/products",
+    "/register",
+    "/login",
+    "/edit"
 ]);
 
 let route = location.pathname; // alias for location.pathname
