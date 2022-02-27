@@ -111,7 +111,7 @@
 let router = new core.Router();
 
 router.AddTable([
-    "/#", // default route
+    "/", // default route
     "/home",
     "/about",
     "/services",
